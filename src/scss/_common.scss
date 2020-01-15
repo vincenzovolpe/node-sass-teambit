@@ -8,3 +8,14 @@ body {
     min-height: 100%;
     font-family: 'HarmoniaSansProCyr-Regular',Arial,sans-serif;
 }
+
+@mixin font {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@mixin hover-link {
+    &:hover {
+        color: $text-hover-color;
+    }
+}

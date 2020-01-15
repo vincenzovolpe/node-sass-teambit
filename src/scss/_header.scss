@@ -1,0 +1,40 @@
+header {
+
+    font-size: 14px;
+    font-weight: 600;
+
+    .logo {
+        background-image: url('https://teambit.io/wp-content/themes/teambeat/img/logo.svg');
+        float: left;
+        width: 110px;
+        height: 35px;
+        overflow: hidden;
+        text-indent: 101%;
+        white-space: nowrap;
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
+    .navbar {
+        padding: 20px 0;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 0 20px;
+        color: #58402c;
+        &:hover {
+            color: #30488F;
+        }
+    }
+    .btn {
+        margin-left: 20px;
+        border: 1px solid #30488f;
+        color: #30488f;
+        font-size: 14px;
+        font-weight: 600;
+        & i {
+            padding-right: 8px;
+        }
+        &:hover {
+            background: #30488f;
+        }
+    }
+}

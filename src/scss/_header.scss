@@ -14,9 +14,51 @@ header {
         background-position: left center;
         background-repeat: no-repeat;
     }
+
     .navbar {
         padding: 20px 0;
+
+        .dropdown-menu {
+            transition: opacity linear 0.15s;
+            box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+            border: 1px solid #e1ddd4;
+            border-radius: 7px;
+
+            .dropdown-item {
+
+            }
+        }
+
+        .btn {
+            margin-left: 20px;
+            border: 1px solid #30488f;
+            color: #30488f;
+            font-size: 14px;
+            font-weight: 600;
+            & i {
+                padding-right: 8px;
+            }
+            &:hover {
+                color: #fff;
+                background: #30488f;
+            }
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .container::before {
+            bottom: -20px;
+            left: 15px;
+            right: 15px;
+            display: block;
+            position: absolute;
+            border-bottom: 1px solid #bdb5af;
+            content: '';
+        }
     }
+
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 0 20px;
         color: #58402c;
@@ -24,17 +66,5 @@ header {
             color: #30488F;
         }
     }
-    .btn {
-        margin-left: 20px;
-        border: 1px solid #30488f;
-        color: #30488f;
-        font-size: 14px;
-        font-weight: 600;
-        & i {
-            padding-right: 8px;
-        }
-        &:hover {
-            background: #30488f;
-        }
-    }
+
 }

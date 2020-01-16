@@ -91,28 +91,25 @@ header .navbar-expand-md .navbar-nav .nav-link:hover {
   color: #30488f;
 }
 
-main {
+#sezione_uno {
+  margin-top: 100px;
+  margin-bottom: 100px;
   color: #58402c;
   font-family: "HarmoniaSansProCyr-SemiBd";
 }
 
-main #sezione_uno {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-main .jumbotron {
+.jumbotron {
   padding: 0 0;
   background-color: #fff;
 }
 
-main .jumbotron h1 {
+.jumbotron h1 {
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
-main .jumbotron label {
+.jumbotron label {
   height: 35px;
   width: 38px;
   line-height: 35px;
@@ -122,13 +119,13 @@ main .jumbotron label {
   margin: auto;
 }
 
-main .jumbotron .lead {
+.jumbotron .lead {
   font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
   margin-bottom: 40px;
   font-size: 22px;
 }
 
-main .jumbotron .btn {
+.jumbotron .btn {
   font-size: 14px;
   font-weight: 600;
   font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
@@ -137,24 +134,56 @@ main .jumbotron .btn {
   border: none;
 }
 
-main .jumbotron .btn i {
+.jumbotron .btn i {
   padding-right: 5px;
 }
 
-main .jumbotron .btn:hover {
+.jumbotron .btn:hover {
   background: #233569;
 }
 
-main .jumbotron p:last-child {
+.jumbotron p:last-child {
   font-size: 14px;
 }
 
-main .jumbotron p:last-child a {
+.jumbotron p:last-child a {
   color: #58402c;
 }
 
-main .jumbotron p:last-child a:hover {
+.jumbotron p:last-child a:hover {
   color: #30488f;
   text-decoration: none;
+}
+
+#sezione_due {
+  color: #58402c;
+  padding: 30px 0;
+  background: #ffe7d2;
+}
+
+#sezione_due h2,
+#sezione_due span {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#sezione_due img:not(:nth-last-child(1)) {
+  width: 140px;
+  height: 105px;
+  margin: 20px auto;
+}
+
+#sezione_due img:last-child {
+  max-width: 280px;
+}
+
+#sezione_due figcaption {
+  font-size: 18px;
+  color: #58402c;
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+}
+
+#sezione_due hr {
+  border-top: 1px solid #bdb5af;
 }
 

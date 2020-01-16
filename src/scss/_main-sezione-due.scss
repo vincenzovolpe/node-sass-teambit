@@ -1,0 +1,30 @@
+#sezione_due {
+        color: $text-color;
+        padding: 30px 0;
+        background: #ffe7d2;
+
+        h2, span {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        img:not(:nth-last-child(1)) {
+            width: 140px;
+            height: 105px;
+            margin: 20px auto;
+        }
+
+        img:last-child {
+            max-width: 280px;
+        }
+
+        figcaption {
+            font-size: 18px;
+            color: $text-color;
+            font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+        }
+
+        hr {
+            border-top: 1px solid #bdb5af;
+        }
+}

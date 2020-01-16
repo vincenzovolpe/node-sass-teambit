@@ -1,9 +1,8 @@
-color: $text-color;
-font-family: 'HarmoniaSansProCyr-SemiBd';
-
 #sezione_uno {
     margin-top: 100px;
     margin-bottom: 100px;
+    color: $text-color;
+    font-family: 'HarmoniaSansProCyr-SemiBd';
 }
 
 .jumbotron {
@@ -59,3 +58,4 @@ font-family: 'HarmoniaSansProCyr-SemiBd';
             }
         }
     }
+}

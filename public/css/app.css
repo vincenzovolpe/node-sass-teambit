@@ -29,6 +29,7 @@ header .navbar-brand {
 
 header .navbar {
   padding: 20px 0;
+  background-color: #fff;
 }
 
 header .navbar .dropdown-menu {
@@ -185,5 +186,14 @@ header .navbar-expand-md .navbar-nav .nav-link:hover {
 
 #sezione_due hr {
   border-top: 1px solid #bdb5af;
+}
+
+#sezione_tre picture > img {
+  max-width: 768px;
+  float: right;
+}
+
+#sezione_tre figure > img {
+  max-width: 270px;
 }
 

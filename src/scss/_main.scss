@@ -1,19 +1,2 @@
-main {
-    color: $text-color;
-    font-family: 'HarmoniaSansProCyr-SemiBd';
-
-    #sezione_uno {
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-    .jumbotron {
-        padding: 0 0;
-        background-color: #fff;
-
-        h1 {
-            font-size: 50px;
-            font-weight: 600;
-        }
-    }
-}
+@import '_main_sezione-uno';
+@import '_main_sezione-due';

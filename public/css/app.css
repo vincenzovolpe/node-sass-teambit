@@ -109,5 +109,52 @@ main .jumbotron {
 main .jumbotron h1 {
   font-size: 50px;
   font-weight: 600;
+  margin-bottom: 30px;
+}
+
+main .jumbotron label {
+  height: 35px;
+  width: 38px;
+  line-height: 35px;
+  font-size: 0.8125rem;
+  color: #bdb5af;
+  text-align: center;
+  margin: auto;
+}
+
+main .jumbotron .lead {
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
+main .jumbotron .btn {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+  background: #30488f;
+  border-radius: 7px;
+  border: none;
+}
+
+main .jumbotron .btn i {
+  padding-right: 5px;
+}
+
+main .jumbotron .btn:hover {
+  background: #233569;
+}
+
+main .jumbotron p:last-child {
+  font-size: 14px;
+}
+
+main .jumbotron p:last-child a {
+  color: #58402c;
+}
+
+main .jumbotron p:last-child a:hover {
+  color: #30488f;
+  text-decoration: none;
 }
 

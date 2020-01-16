@@ -43,22 +43,22 @@ header {
             }
             &:hover {
                 color: #fff;
-                background: $text-hover-color
+                background: $text-hover-color;
             }
         }
 
         .container {
             position: relative;
-        }
 
-        .container::before {
-            bottom: -20px;
-            left: 15px;
-            right: 15px;
-            display: block;
-            position: absolute;
-            border-bottom: 1px solid #bdb5af;
-            content: '';
+            &::before {
+                bottom: -20px;
+                left: 15px;
+                right: 15px;
+                display: block;
+                position: absolute;
+                border-bottom: 1px solid #bdb5af;
+                content: '';
+            }
         }
     }
 

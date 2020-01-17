@@ -1,10 +1,37 @@
 #sezione_tre {
+    color: $text-color;
+
     picture>img {
         max-width: 768px;
         float: right;
     }
-
-    figure>img {
-        max-width: 270px;
+    figure {
+        width: 100%;
+        img {
+            max-width: 270px;
+        }
     }
+
+    h3 {
+        font-family: "HarmoniaSansProCyr-SemiBd";
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 19px;
+        margin-bottom: 40px;
+
+        a {
+            $text-hover-color: #30488f;
+
+            &:hover {
+                color: #263972;
+                text-decoration: none;
+            }
+        }
+    }
+
+
 }

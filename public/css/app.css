@@ -16495,7 +16495,6 @@ header .navbar-expand-md .navbar-nav .nav-link:hover {
 }
 #sezione_tre picture > img {
   max-width: 768px;
-  float: right;
 }
 #sezione_tre figure {
   width: 100%;
@@ -16513,7 +16512,100 @@ header .navbar-expand-md .navbar-nav .nav-link:hover {
   font-size: 19px;
   margin-bottom: 40px;
 }
+#sezione_tre p a {
+  color: #30488f;
+}
 #sezione_tre p a:hover {
+  color: #263972;
+  text-decoration: none;
+}
+
+#sezione_quattro {
+  color: #58402c;
+}
+#sezione_quattro picture > img {
+  max-width: 768px;
+}
+#sezione_quattro figure {
+  width: 100%;
+}
+#sezione_quattro figure img {
+  max-width: 270px;
+}
+#sezione_quattro h3 {
+  font-family: "HarmoniaSansProCyr-SemiBd";
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+#sezione_quattro p {
+  font-size: 19px;
+  margin-bottom: 40px;
+}
+#sezione_quattro p a {
+  color: #30488f;
+}
+#sezione_quattro p a:hover {
+  color: #263972;
+  text-decoration: none;
+}
+
+#sezione_cinque {
+  color: #58402c;
+}
+#sezione_cinque picture > img {
+  max-width: 768px;
+}
+#sezione_cinque figure {
+  width: 100%;
+}
+#sezione_cinque figure img {
+  max-width: 270px;
+}
+#sezione_cinque h3 {
+  font-family: "HarmoniaSansProCyr-SemiBd";
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+#sezione_cinque p {
+  font-size: 19px;
+  margin-bottom: 40px;
+}
+#sezione_cinque p a {
+  color: #30488f;
+}
+#sezione_cinque p a:hover {
+  color: #263972;
+  text-decoration: none;
+}
+
+#sezione_sei {
+  color: #58402c;
+}
+#sezione_sei picture > img {
+  max-width: 768px;
+}
+#sezione_sei figure {
+  width: 100%;
+}
+#sezione_sei figure img {
+  max-width: 270px;
+}
+#sezione_sei h3 {
+  font-family: "HarmoniaSansProCyr-SemiBd";
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+#sezione_sei p {
+  font-size: 19px;
+  margin-bottom: 40px;
+}
+#sezione_sei p a {
+  color: #30488f;
+}
+#sezione_sei p a:hover {
   color: #263972;
   text-decoration: none;
 }

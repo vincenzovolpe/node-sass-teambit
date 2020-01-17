@@ -14,3 +14,38 @@ body {
         color: $text-hover-color;
     }
 }
+
+@mixin sezione {
+    color: $text-color;
+
+    picture>img {
+        max-width: 768px;
+    }
+    figure {
+        width: 100%;
+        img {
+            max-width: 270px;
+        }
+    }
+
+    h3 {
+        font-family: "HarmoniaSansProCyr-SemiBd";
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 19px;
+        margin-bottom: 40px;
+
+        a {
+            color: $text-hover-color;
+
+            &:hover {
+                color: #263972;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+#sezione_7 {
+    @include pad_back;
+
+    h5 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    blockquote {
+        max-width: 628px;
+        margin: 35px auto;
+        padding: 20px 20px 20px 40px;
+        border: 1px solid #bdb5af;
+        border-radius: 7px;
+        background: #fff;
+        font-size: 16px;
+        line-height: 1.5;
+        position: relative;
+
+        &::after {
+            display: block;
+            width: 37px;
+            height: 39px;
+            position: absolute;
+            top: -23px;
+            left: -1px;
+            background: url("https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg") center center no-repeat;
+            z-index: 1;
+            content: " ";
+        }
+
+        .foto img:last-child {
+            margin-left: 12px;
+        }
+
+        .testo {
+            font-size: 12px;
+            margin-left: 100px;
+            .nome {
+                display: block;
+                font-size: 14px;
+                color: $text-hover-color;
+            }
+        }
+
+    }
+
+    @include bottoni_doppi;
+}

@@ -1,6 +1,15 @@
-@import '_main-sezione-uno';
-@import '_main-sezione-due';
-@import '_main-sezione-tre';
-@import '_main-sezione-quattro';
-@import '_main-sezione-cinque';
-@import '_main-sezione-sei';
+@import '_main-sezione-1';
+@import '_main-sezione-2';
+
+// Ciclo che crea le sezioni dalla 3 alla 6 che sono uguali
+$indice_sezione: 3;
+
+@for $i from 1 through 4 {
+    #sezione_#{$indice_sezione} {
+        @include sezione;
+    }
+    $indice_sezione: $indice_sezione + 1;
+}
+// Fine ciclo
+
+@import '_main-sezione-7';

@@ -1,7 +1,5 @@
-#sezione_due {
-        color: $text-color;
-        padding: 30px 0;
-        background: #ffe7d2;
+#sezione_2 {
+        @include pad_back;
 
         h2, span {
             font-size: 28px;

@@ -1,0 +1,19 @@
+#sezione_1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: $text-color;
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+}
+
+.jumbotron {
+    padding: 0 0;
+    background-color: #fff;
+
+    h1 {
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    @include bottoni_doppi;
+}

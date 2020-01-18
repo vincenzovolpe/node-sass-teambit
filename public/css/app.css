@@ -16336,6 +16336,7 @@ readers do not read off random characters that represent icons */
 body {
   min-height: 100%;
   font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+  color: #58402c;
 }
 
 header {
@@ -16409,7 +16410,7 @@ header .navbar-expand-md .navbar-nav .nav-link:hover {
   color: #30488f;
 }
 
-#sezione_uno {
+#sezione_1 {
   margin-top: 100px;
   margin-bottom: 100px;
   color: #58402c;
@@ -16436,7 +16437,7 @@ header .navbar-expand-md .navbar-nav .nav-link:hover {
 }
 .jumbotron .lead {
   font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   font-size: 22px;
 }
 .jumbotron .btn {
@@ -16464,148 +16465,267 @@ header .navbar-expand-md .navbar-nav .nav-link:hover {
   text-decoration: none;
 }
 
-#sezione_due {
-  color: #58402c;
+#sezione_2 {
   padding: 30px 0;
   background: #ffe7d2;
 }
-#sezione_due h2, #sezione_due span {
+#sezione_2 h2, #sezione_2 span {
   font-size: 28px;
   font-weight: 600;
 }
-#sezione_due img:not(:nth-last-child(1)) {
+#sezione_2 img:not(:nth-last-child(1)) {
   width: 140px;
   height: 105px;
   margin: 20px auto;
 }
-#sezione_due img:last-child {
+#sezione_2 img:last-child {
   max-width: 280px;
 }
-#sezione_due figcaption {
+#sezione_2 figcaption {
   font-size: 18px;
   color: #58402c;
   font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
 }
-#sezione_due hr {
+#sezione_2 hr {
   border-top: 1px solid #bdb5af;
 }
 
-#sezione_tre {
+#sezione_3 {
   color: #58402c;
 }
-#sezione_tre picture > img {
+#sezione_3 picture > img {
   max-width: 768px;
 }
-#sezione_tre figure {
+#sezione_3 figure {
   width: 100%;
 }
-#sezione_tre figure img {
+#sezione_3 figure img {
   max-width: 270px;
 }
-#sezione_tre h3 {
+#sezione_3 h3 {
   font-family: "HarmoniaSansProCyr-SemiBd";
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 25px;
 }
-#sezione_tre p {
+#sezione_3 p {
   font-size: 19px;
   margin-bottom: 40px;
 }
-#sezione_tre p a {
+#sezione_3 p a {
   color: #30488f;
 }
-#sezione_tre p a:hover {
+#sezione_3 p a:hover {
   color: #263972;
   text-decoration: none;
 }
 
-#sezione_quattro {
+#sezione_4 {
   color: #58402c;
 }
-#sezione_quattro picture > img {
+#sezione_4 picture > img {
   max-width: 768px;
 }
-#sezione_quattro figure {
+#sezione_4 figure {
   width: 100%;
 }
-#sezione_quattro figure img {
+#sezione_4 figure img {
   max-width: 270px;
 }
-#sezione_quattro h3 {
+#sezione_4 h3 {
   font-family: "HarmoniaSansProCyr-SemiBd";
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 25px;
 }
-#sezione_quattro p {
+#sezione_4 p {
   font-size: 19px;
   margin-bottom: 40px;
 }
-#sezione_quattro p a {
+#sezione_4 p a {
   color: #30488f;
 }
-#sezione_quattro p a:hover {
+#sezione_4 p a:hover {
   color: #263972;
   text-decoration: none;
 }
 
-#sezione_cinque {
+#sezione_5 {
   color: #58402c;
 }
-#sezione_cinque picture > img {
+#sezione_5 picture > img {
   max-width: 768px;
 }
-#sezione_cinque figure {
+#sezione_5 figure {
   width: 100%;
 }
-#sezione_cinque figure img {
+#sezione_5 figure img {
   max-width: 270px;
 }
-#sezione_cinque h3 {
+#sezione_5 h3 {
   font-family: "HarmoniaSansProCyr-SemiBd";
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 25px;
 }
-#sezione_cinque p {
+#sezione_5 p {
   font-size: 19px;
   margin-bottom: 40px;
 }
-#sezione_cinque p a {
+#sezione_5 p a {
   color: #30488f;
 }
-#sezione_cinque p a:hover {
+#sezione_5 p a:hover {
   color: #263972;
   text-decoration: none;
 }
 
-#sezione_sei {
+#sezione_6 {
   color: #58402c;
 }
-#sezione_sei picture > img {
+#sezione_6 picture > img {
   max-width: 768px;
 }
-#sezione_sei figure {
+#sezione_6 figure {
   width: 100%;
 }
-#sezione_sei figure img {
+#sezione_6 figure img {
   max-width: 270px;
 }
-#sezione_sei h3 {
+#sezione_6 h3 {
   font-family: "HarmoniaSansProCyr-SemiBd";
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 25px;
 }
-#sezione_sei p {
+#sezione_6 p {
   font-size: 19px;
   margin-bottom: 40px;
 }
-#sezione_sei p a {
+#sezione_6 p a {
   color: #30488f;
 }
-#sezione_sei p a:hover {
+#sezione_6 p a:hover {
   color: #263972;
   text-decoration: none;
+}
+
+#sezione_7 {
+  padding: 30px 0;
+  background: #ffe7d2;
+}
+#sezione_7 h5 {
+  font-size: 40px;
+  font-weight: 600;
+}
+#sezione_7 blockquote {
+  max-width: 628px;
+  margin: 35px auto;
+  padding: 20px 20px 20px 40px;
+  border: 1px solid #bdb5af;
+  border-radius: 7px;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+}
+#sezione_7 blockquote::after {
+  display: block;
+  width: 37px;
+  height: 39px;
+  position: absolute;
+  top: -23px;
+  left: -1px;
+  background: url("https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg") center center no-repeat;
+  z-index: 1;
+  content: " ";
+}
+#sezione_7 blockquote .foto img:last-child {
+  margin-left: 12px;
+}
+#sezione_7 blockquote .testo {
+  font-size: 12px;
+  margin-left: 100px;
+}
+#sezione_7 blockquote .testo .nome {
+  display: block;
+  font-size: 14px;
+  color: #30488f;
+}
+#sezione_7 label {
+  height: 35px;
+  width: 38px;
+  line-height: 35px;
+  font-size: 0.8125rem;
+  color: #bdb5af;
+  text-align: center;
+  margin: auto;
+}
+#sezione_7 .lead {
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+#sezione_7 .btn {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+  background: #30488f;
+  border-radius: 7px;
+  border: none;
+}
+#sezione_7 .btn i {
+  padding-right: 5px;
+}
+#sezione_7 .btn:hover {
+  background: #233569;
+}
+#sezione_7 p:last-child {
+  font-size: 14px;
+}
+#sezione_7 p:last-child a {
+  color: #58402c;
+}
+#sezione_7 p:last-child a:hover {
+  color: #30488f;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 16px;
+  font-weight: 600;
+}
+footer figure img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+footer figure figcaption {
+  margin-left: 70px;
+  max-width: 300px;
+}
+footer figure figcaption a {
+  color: #30488f;
+}
+footer figure figcaption a:hover {
+  color: #263972;
+}
+footer .navbar {
+  padding-top: 0;
+}
+footer .navbar .nav-item a {
+  line-height: 2.4;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+footer .navbar .nav-item:first-child {
+  margin-bottom: 15px;
+}
+footer .navbar a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #58402c;
+}
+footer .navbar a:hover {
+  color: #30488f;
 }

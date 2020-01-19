@@ -60,6 +60,10 @@ header {
                 border-bottom: 1px solid #bdb5af;
                 content: '';
             }
+
+            &.nobefore::before {
+                content: none;
+            }
         }
     }
 
@@ -67,6 +71,14 @@ header {
         padding: 0 20px;
         color: $text-color;
         @include hover-link;
+    }
+
+    .border::before {
+        border-bottom: 1px solid #bdb5af;
+    }
+
+    .invisibile {
+        opacity: 0;
     }
 
 }
